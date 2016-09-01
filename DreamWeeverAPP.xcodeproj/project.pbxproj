@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F010BB51D77E6D0003F607A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010BB41D77E6D0003F607A /* AppDelegate.swift */; };
+		4F010BB71D77E6D0003F607A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010BB61D77E6D0003F607A /* ViewController.swift */; };
+		4F010BBA1D77E6D0003F607A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F010BB81D77E6D0003F607A /* Main.storyboard */; };
+		4F010BBD1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F010BBB1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodeld */; };
+		4F010BBF1D77E6D0003F607A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F010BBE1D77E6D0003F607A /* Assets.xcassets */; };
+		4F010BC21D77E6D0003F607A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F010BC01D77E6D0003F607A /* LaunchScreen.storyboard */; };
+		4F010BCD1D77E6D0003F607A /* DreamWeeverAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010BCC1D77E6D0003F607A /* DreamWeeverAPPTests.swift */; };
+		4F010BD81D77E6D0003F607A /* DreamWeeverAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F010BD71D77E6D0003F607A /* DreamWeeverAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F010BC91D77E6D0003F607A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F010BA91D77E6D0003F607A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F010BB01D77E6D0003F607A;
+			remoteInfo = DreamWeeverAPP;
+		};
+		4F010BD41D77E6D0003F607A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F010BA91D77E6D0003F607A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F010BB01D77E6D0003F607A;
+			remoteInfo = DreamWeeverAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F010BB11D77E6D0003F607A /* DreamWeeverAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamWeeverAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F010BB41D77E6D0003F607A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F010BB61D77E6D0003F607A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F010BB91D77E6D0003F607A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F010BBC1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamWeeverAPP.xcdatamodel; sourceTree = "<group>"; };
+		4F010BBE1D77E6D0003F607A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F010BC11D77E6D0003F607A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F010BC31D77E6D0003F607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F010BC81D77E6D0003F607A /* DreamWeeverAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamWeeverAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F010BCC1D77E6D0003F607A /* DreamWeeverAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamWeeverAPPTests.swift; sourceTree = "<group>"; };
+		4F010BCE1D77E6D0003F607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F010BD31D77E6D0003F607A /* DreamWeeverAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamWeeverAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F010BD71D77E6D0003F607A /* DreamWeeverAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamWeeverAPPUITests.swift; sourceTree = "<group>"; };
+		4F010BD91D77E6D0003F607A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F010BAE1D77E6D0003F607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BC51D77E6D0003F607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BD01D77E6D0003F607A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F010BA81D77E6D0003F607A = {
+			isa = PBXGroup;
+			children = (
+				4F010BB31D77E6D0003F607A /* DreamWeeverAPP */,
+				4F010BCB1D77E6D0003F607A /* DreamWeeverAPPTests */,
+				4F010BD61D77E6D0003F607A /* DreamWeeverAPPUITests */,
+				4F010BB21D77E6D0003F607A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F010BB21D77E6D0003F607A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F010BB11D77E6D0003F607A /* DreamWeeverAPP.app */,
+				4F010BC81D77E6D0003F607A /* DreamWeeverAPPTests.xctest */,
+				4F010BD31D77E6D0003F607A /* DreamWeeverAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F010BB31D77E6D0003F607A /* DreamWeeverAPP */ = {
+			isa = PBXGroup;
+			children = (
+				4F010BB41D77E6D0003F607A /* AppDelegate.swift */,
+				4F010BB61D77E6D0003F607A /* ViewController.swift */,
+				4F010BB81D77E6D0003F607A /* Main.storyboard */,
+				4F010BBE1D77E6D0003F607A /* Assets.xcassets */,
+				4F010BC01D77E6D0003F607A /* LaunchScreen.storyboard */,
+				4F010BC31D77E6D0003F607A /* Info.plist */,
+				4F010BBB1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodeld */,
+			);
+			path = DreamWeeverAPP;
+			sourceTree = "<group>";
+		};
+		4F010BCB1D77E6D0003F607A /* DreamWeeverAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F010BCC1D77E6D0003F607A /* DreamWeeverAPPTests.swift */,
+				4F010BCE1D77E6D0003F607A /* Info.plist */,
+			);
+			path = DreamWeeverAPPTests;
+			sourceTree = "<group>";
+		};
+		4F010BD61D77E6D0003F607A /* DreamWeeverAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F010BD71D77E6D0003F607A /* DreamWeeverAPPUITests.swift */,
+				4F010BD91D77E6D0003F607A /* Info.plist */,
+			);
+			path = DreamWeeverAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F010BB01D77E6D0003F607A /* DreamWeeverAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F010BDC1D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPP" */;
+			buildPhases = (
+				4F010BAD1D77E6D0003F607A /* Sources */,
+				4F010BAE1D77E6D0003F607A /* Frameworks */,
+				4F010BAF1D77E6D0003F607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamWeeverAPP;
+			productName = DreamWeeverAPP;
+			productReference = 4F010BB11D77E6D0003F607A /* DreamWeeverAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F010BC71D77E6D0003F607A /* DreamWeeverAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F010BDF1D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPPTests" */;
+			buildPhases = (
+				4F010BC41D77E6D0003F607A /* Sources */,
+				4F010BC51D77E6D0003F607A /* Frameworks */,
+				4F010BC61D77E6D0003F607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F010BCA1D77E6D0003F607A /* PBXTargetDependency */,
+			);
+			name = DreamWeeverAPPTests;
+			productName = DreamWeeverAPPTests;
+			productReference = 4F010BC81D77E6D0003F607A /* DreamWeeverAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F010BD21D77E6D0003F607A /* DreamWeeverAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F010BE21D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPPUITests" */;
+			buildPhases = (
+				4F010BCF1D77E6D0003F607A /* Sources */,
+				4F010BD01D77E6D0003F607A /* Frameworks */,
+				4F010BD11D77E6D0003F607A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F010BD51D77E6D0003F607A /* PBXTargetDependency */,
+			);
+			name = DreamWeeverAPPUITests;
+			productName = DreamWeeverAPPUITests;
+			productReference = 4F010BD31D77E6D0003F607A /* DreamWeeverAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F010BA91D77E6D0003F607A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Paul Defilippi";
+				TargetAttributes = {
+					4F010BB01D77E6D0003F607A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V7Q65FMKJ4;
+						ProvisioningStyle = Automatic;
+					};
+					4F010BC71D77E6D0003F607A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V7Q65FMKJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F010BB01D77E6D0003F607A;
+					};
+					4F010BD21D77E6D0003F607A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V7Q65FMKJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F010BB01D77E6D0003F607A;
+					};
+				};
+			};
+			buildConfigurationList = 4F010BAC1D77E6D0003F607A /* Build configuration list for PBXProject "DreamWeeverAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F010BA81D77E6D0003F607A;
+			productRefGroup = 4F010BB21D77E6D0003F607A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F010BB01D77E6D0003F607A /* DreamWeeverAPP */,
+				4F010BC71D77E6D0003F607A /* DreamWeeverAPPTests */,
+				4F010BD21D77E6D0003F607A /* DreamWeeverAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F010BAF1D77E6D0003F607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F010BC21D77E6D0003F607A /* LaunchScreen.storyboard in Resources */,
+				4F010BBF1D77E6D0003F607A /* Assets.xcassets in Resources */,
+				4F010BBA1D77E6D0003F607A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BC61D77E6D0003F607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BD11D77E6D0003F607A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F010BAD1D77E6D0003F607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F010BB71D77E6D0003F607A /* ViewController.swift in Sources */,
+				4F010BBD1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodeld in Sources */,
+				4F010BB51D77E6D0003F607A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BC41D77E6D0003F607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F010BCD1D77E6D0003F607A /* DreamWeeverAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F010BCF1D77E6D0003F607A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F010BD81D77E6D0003F607A /* DreamWeeverAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F010BCA1D77E6D0003F607A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F010BB01D77E6D0003F607A /* DreamWeeverAPP */;
+			targetProxy = 4F010BC91D77E6D0003F607A /* PBXContainerItemProxy */;
+		};
+		4F010BD51D77E6D0003F607A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F010BB01D77E6D0003F607A /* DreamWeeverAPP */;
+			targetProxy = 4F010BD41D77E6D0003F607A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F010BB81D77E6D0003F607A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F010BB91D77E6D0003F607A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F010BC01D77E6D0003F607A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F010BC11D77E6D0003F607A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F010BDA1D77E6D0003F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F010BDB1D77E6D0003F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F010BDD1D77E6D0003F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4F010BDE1D77E6D0003F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4F010BE01D77E6D0003F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamWeeverAPP.app/DreamWeeverAPP";
+			};
+			name = Debug;
+		};
+		4F010BE11D77E6D0003F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamWeeverAPP.app/DreamWeeverAPP";
+			};
+			name = Release;
+		};
+		4F010BE31D77E6D0003F607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DreamWeeverAPP;
+			};
+			name = Debug;
+		};
+		4F010BE41D77E6D0003F607A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V7Q65FMKJ4;
+				INFOPLIST_FILE = DreamWeeverAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.DreamWeeverAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DreamWeeverAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F010BAC1D77E6D0003F607A /* Build configuration list for PBXProject "DreamWeeverAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F010BDA1D77E6D0003F607A /* Debug */,
+				4F010BDB1D77E6D0003F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F010BDC1D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F010BDD1D77E6D0003F607A /* Debug */,
+				4F010BDE1D77E6D0003F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F010BDF1D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F010BE01D77E6D0003F607A /* Debug */,
+				4F010BE11D77E6D0003F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F010BE21D77E6D0003F607A /* Build configuration list for PBXNativeTarget "DreamWeeverAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F010BE31D77E6D0003F607A /* Debug */,
+				4F010BE41D77E6D0003F607A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F010BBB1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F010BBC1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodel */,
+			);
+			currentVersion = 4F010BBC1D77E6D0003F607A /* DreamWeeverAPP.xcdatamodel */;
+			path = DreamWeeverAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F010BA91D77E6D0003F607A /* Project object */;
+}
